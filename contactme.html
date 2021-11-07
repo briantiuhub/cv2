@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brian's contact</title>
+  </head>
+  <body>
+    <h3>(778)-928-5795</h3>
+    <h3>bbriantiu96@gmail.com</h3>
+    <form
+      action="mailto:bbriantiu96@gmail.com"
+      method="post"
+      enctype="text/plain"
+    >
+      <label for="name">Name</label>
+      <input type="name" name="name" id="name" placeholder="name" /><br />
+      <label for="email">Email</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="email"
+        required
+      /><br />
+
+      <label for="gender" name="gender">Male</label>
+      <input type="radio" name="gender" value="male" />
+
+      <label for="gender" name="gender">Female</label>
+      <input type="radio" name="gender" value="female" />
+
+      <label for="other">Other</label>
+      <input type="radio" name="gender" value="other" /><br /><br />
+
+      <label for="animal">Please choose your favourite animal😊</label>
+      <select name="animal" id="animal">
+        <option value="--please choose one--">--please choose one--</option>
+        <option value="snake">snake</option>
+        <option value="dog">dog</option>
+        <option value="cat">cat</option>
+        <option value="jaguar">jaguar</option></select
+      ><br /><br />
+
+      <label for="fruit">Choose 3 fruits:</label>
+
+      <input type="checkbox" name="fruit" value="apple" />
+      <label for="fruit">apple</label>
+
+      <input type="checkbox" name="fruit" value="orange" />
+      <label for="fruit">orange</label>
+
+      <input type="checkbox" name="fruit" value="mango" />
+      <label for="fruit">mango</label>
+
+      <input type="checkbox" name="fruit" value="pear" />
+      <label for="fruit">pear</label> <br /><br />
+      <textarea
+        name="comment"
+        id="comment"
+        cols="32"
+        rows="5"
+        placeholder="leave a message!!"
+      ></textarea
+      ><br />
+      <input type="submit" />
+    </form>
+  </body>
+</html>
